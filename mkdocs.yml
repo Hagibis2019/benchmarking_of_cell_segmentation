@@ -1,0 +1,44 @@
+site_name: CellRefine-3D 用户手册
+site_url: https://hagibis2019.github.io/benchmarking_of_cell_segmentation/
+extra_css:
+  - stylesheets/extra.css 
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs           # 顶部标签页
+    - navigation.sections       # 左侧目录分组
+    - navigation.expand         # 目录默认展开
+    - search.suggest            # 搜索建议
+    - content.code.copy         # 代码块复制按钮
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换浅色模式
+
+nav:
+  - 首页: index.md
+  - 运行环境: environment.md
+  - 数据加载与图层准备: loading.md
+  - 细胞邻域提取: extraction.md
+  - 欠分割修复: under.md
+  - 过分割合并: over.md
+  - 边界修复: boundary.md
+  - 丢细胞检测: missing.md
+  - 交互与回溯: interaction.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
