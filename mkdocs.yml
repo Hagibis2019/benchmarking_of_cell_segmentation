@@ -1,40 +1,66 @@
 site_name: CellRefine-3D 用户手册
 site_url: https://hagibis2019.github.io/benchmarking_of_cell_segmentation/
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: zh
+          name: 中文
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: CellRefine-3D User Manual
+          nav_translations:
+            首页: Home
+            napari基本操作: Napari Basics
+            CellRefine-3D 的安装与设置: Installation & Setup
+            CellRefine-3D的基本操作: Basic Operations
+            欠分割: Under-segmentation
+            过分割: Over-segmentation
+            边界修复: Boundary Fix
+            丢细胞检查: Missing Cell Detection
+            保存与恢复: Save & Recovery
+
 extra_css:
   - stylesheets/extra.css 
+
 theme:
   name: material
   language: zh
   features:
-    - navigation.tabs           # 顶部标签页
-    - navigation.sections       # 左侧目录分组
-    - navigation.expand         # 目录默认展开
-    - search.suggest            # 搜索建议
-    - content.code.copy         # 代码块复制按钮
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - content.code.copy
   palette:
     - scheme: default
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-7
-        name: 切换深色模式
+        name: Switch to dark mode
     - scheme: slate
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-4
-        name: 切换浅色模式
+        name: Switch to light mode
 
 nav:
   - 首页: index.md
-  - 运行环境: environment.md
-  - 数据加载与图层准备: loading.md
-  - 细胞邻域提取: extraction.md
-  - 欠分割修复: under.md
-  - 过分割合并: over.md
+  - napari基本操作: napari.md
+  - CellRefine-3D 的安装与设置: environment.md
+  - CellRefine-3D的基本操作: loading.md
+  - 欠分割: under.md
+  - 过分割: over.md
   - 边界修复: boundary.md
-  - 丢细胞检测: missing.md
-  - 交互与回溯: interaction.md
+  - 丢细胞检查: missing.md
+  - 保存与恢复: interaction.md
 
 markdown_extensions:
   - pymdownx.highlight
