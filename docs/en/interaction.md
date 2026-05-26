@@ -1,6 +1,8 @@
 # VIII. Save & Recovery
 
-All editing operations—whether plugin algorithm repairs or native napari annotations—are managed within a unified undo and redo stack, and cached in real time in memory logs. Users can roll back to any historical state at any time, or submit阶段性成果 back to the global original data, exporting as TIFF or serialized JSON logs for complete recovery.
+All editing operations—whether plugin algorithm repairs or native napari annotations—are managed within a unified undo and redo stack, and cached in real time in memory logs. Users can roll back to any historical state at any time, or submit intermediate results back to the global original data, exporting as TIFF or serialized JSON logs for complete recovery.
+
+Operate in the <kbd>Interaction</kbd> area of the plugin panel.
 
 <div style="text-align: center; margin: 1.5em 0;">
   <img src="../../images/media/image26.png" style="max-width: 70%; height: auto; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
