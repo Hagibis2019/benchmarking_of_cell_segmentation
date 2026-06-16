@@ -9,7 +9,7 @@ The above configuration is a verified recommended environment. Other hardware pl
 
 ## 2.2 Installing CellRefine-3D
 
-CellRefine-3D is a plugin developed on the [napari](https://napari.org/) 3D visualization platform. Before installing this plugin, please ensure that napari is correctly installed and configured, then clone the repository from GitHub and install locally in editable mode:
+CellRefine-3D is a plugin developed on the [napari](https://napari.org/) 3D visualization platform. This plugin is primarily designed for napari 0.6 and below; some features may not be fully compatible with newer versions. Before installing this plugin, please ensure that napari is correctly installed and configured, then clone the repository from GitHub and install locally in editable mode:
 
 ```bash
 # 1. Clone the repository

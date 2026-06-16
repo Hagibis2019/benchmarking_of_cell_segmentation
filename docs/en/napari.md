@@ -4,7 +4,7 @@ CellRefine-3D is built on the [napari](https://napari.org/) multi-dimensional im
 
 ## 1.1 Installation and Launch
 
-If napari is not yet installed, run the following in your target Python environment:
+If napari is not yet installed, run the following in your target Python environment (note: this plugin is optimized for napari 0.6 and below; newer versions may have limited compatibility):
 
 ```bash
 pip install "napari[all]"

@@ -4,7 +4,7 @@ CellRefine-3D is a cell nucleus segmentation refinement plugin developed on the 
 
 <div style="text-align: center; margin: 2em 0;">
   <video width="80%" style="max-width: 800px;" controls poster="../images/media/image4.png">
-    <source src="../video.mp4" type="video/mp4">
+    <source src="https://github.com/Hagibis2019/benchmarking_of_cell_segmentation/releases/download/v1.0/introduction_ch.mp4" type="video/mp4">
     Your browser does not support video playback.
   </video>
   <div style="color: #666; font-size: 0.9em; margin-top: 0.5em;">CellRefine-3D Operation Demo Video</div>

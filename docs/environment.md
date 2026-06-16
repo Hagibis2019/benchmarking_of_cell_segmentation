@@ -9,7 +9,7 @@
 
 ## 2.2 安装 CellRefine-3D
 
-CellRefine-3D 是一款基于 [napari](https://napari.org/) 三维可视化平台开发的插件。安装本插件前，请确保已正确安装并配置 napari 环境，然后从 GitHub 克隆仓库并以 editable 模式本地安装：
+CellRefine-3D 是一款基于 [napari](https://napari.org/) 三维可视化平台开发的插件。本插件主要适配 napari 0.6 及以下版本，更高版本的部分功能可能存在兼容性问题。安装本插件前，请确保已正确安装并配置 napari 环境，然后从 GitHub 克隆仓库并以 editable 模式本地安装：
 
 ```bash
 # 1. 克隆仓库
