@@ -29,15 +29,17 @@ plugins:
             保存与恢复: Save & Recovery
 
 extra_css:
-  - stylesheets/extra.css 
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/lang-switcher.js
 
 theme:
   name: material
   language: zh
   features:
-    # 移除 navigation.tabs，导航从顶部移回左侧边栏
-    - navigation.sections        # 一级标题显示为粗体区块
-    - navigation.expand          # 默认展开所有子导航（不需要逐一点开）
+    - navigation.sections
+    - navigation.expand
     - search.suggest
     - content.code.copy
   palette:
@@ -54,20 +56,16 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
 
-# 嵌套导航结构：大标题包含小标题，左侧可折叠展开
 nav:
   - 首页: index.md
-  
   - 快速开始:
     - napari基本操作: napari.md
     - CellRefine-3D 的安装与设置: environment.md
     - CellRefine-3D的基本操作: loading.md
-    
   - 分割修复:
     - 欠分割: under.md
     - 过分割: over.md
     - 边界修复: boundary.md
-    
   - 其他功能:
     - 丢细胞检查: missing.md
     - 保存与恢复: interaction.md
