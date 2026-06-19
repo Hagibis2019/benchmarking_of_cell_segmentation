@@ -18,15 +18,7 @@ cd CellRefine3D
 
 # 2. Activate the napari environment (adjust according to your actual environment name)
 conda activate napari-env
-
-# 3. Install in editable mode
-pip install -e .
 ```
-
-**Notes**:
-- `cd CellRefine3D` means entering the project **root directory** (i.e., the directory containing `setup.py` or `pyproject.toml`), not the `src` subdirectory.
-- `-e` (`--editable`) means editable installation: any modification you make to the source code will take effect immediately without re-running `pip install`.
-
 ## 2.3 Uninstallation
 
 To uninstall, run the following in the corresponding environment:
