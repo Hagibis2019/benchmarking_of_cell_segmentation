@@ -1,62 +1,75 @@
-# II. Installation and Setup
+# Installation and Setup of NuPatch3D
 
-## 2.1 System Requirements
+## 2.1 System and Hardware Requirements
 
-- **Operating System**: Windows 10, or macOS 26 (Tahoe) and above
-- **Hardware Recommendation**: Intel or AMD processor, 16 GB memory
+* **Operating System**: Windows 10 or macOS 26 (Tahoe) and above
+* **Hardware**: Intel or AMD processor, 16 GB RAM or more
 
-The above configuration is a verified recommended environment. Other hardware platforms that meet the requirements can also run normally.
+The above configurations are verified environments; other hardware platforms are generally also supported.
 
-## 2.2 Installing CellRefine-3D
+## 2.2 Installing NuPatch3D
 
-CellRefine-3D is a plugin developed on the [napari](https://napari.org/) 3D visualization platform. This plugin is primarily designed for napari 0.6 and below; some features may not be fully compatible with newer versions. Before installing this plugin, please ensure that napari is correctly installed and configured, then clone the repository from GitHub and install locally in editable mode:
+NuPatch3D is a plugin developed based on [napari](https://napari.org/). It is currently adapted for napari 0.6. Other napari versions may have compatibility issues.
+
+At present, NuPatch3D is only available via GitHub source installation. Follow the steps below:
 
 ```bash
-# 1. Clone the repository
+# 1. Create a Conda environment
+conda create -n napari-env python=3.11
+
+# 2. Activate the environment
+conda activate napari-env
+
+# 3. Install napari
+pip install "napari[all]"
+
+# 4. Clone the repository
 git clone https://github.com/Hagibis2019/CellRefine3D.git
 cd CellRefine3D
 
-# 2. Activate the napari environment (adjust according to your actual environment name)
-conda activate napari-env
+# 5. Install NuPatch3D
+pip install .
 ```
+
 ## 2.3 Uninstallation
 
-To uninstall, run the following in the corresponding environment:
+To uninstall the plugin, run the following command in the corresponding environment:
 
 ```bash
 pip uninstall cellrefine3d
 ```
 
+## 2.4 Launching NuPatch3D
 
-## 2.4 Launching the CellRefine-3D Plugin
-
-Click the menu bar <kbd>Plugins</kbd> → <kbd>CellRefine3D(CellRefine3D)</kbd>. The plugin panel will dock on the right side of the napari window by default.
+Click the menu bar <kbd>Plugins</kbd> → <kbd>CellRefine-3D (CellRefine-3D)</kbd>. The NuPatch3D plugin panel will automatically dock on the right side of the napari window.
 
 <div style="text-align: center; margin: 1.5em 0;">
-  <img src="../../images/media/image2.png" style="max-width: 70%; height: auto; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
-  <div style="color: #666; font-size: 0.9em; margin-top: 0.5em;">Figure 4 Plugin launch control panel</div>
+  <img src="../../images/media/image2.png" style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <div style="color: #666; font-size: 0.9em; margin-top: 0.5em;">Figure 4. Launching the NuPatch3D Plugin</div>
 </div>
 
 ## 2.5 Confirming Layer Mapping
 
-After the plugin launches, the <kbd>Label Layer</kbd> and <kbd>Image Layer (Reference)</kbd> dropdown boxes in the <kbd>Cell Bounding Box Extraction</kbd> area will automatically recognize available layers in napari. Please manually verify:
+After the plugin is launched, the <kbd>Label Layer</kbd> and <kbd>Image Layer (Reference)</kbd> drop-down boxes in the <kbd>Cell Bounding Box Extraction</kbd> region will automatically detect available layers in the current napari viewer. Please confirm that:
 
-- <kbd>Label Layer</kbd> must correspond to the pre-segmentation label layer (<kbd>Labels</kbd> type);
-- <kbd>Image Layer (Reference)</kbd> must correspond to the raw fluorescence image layer (<kbd>Image</kbd> type).
+* <kbd>Label Layer</kbd> corresponds to the pre-segmented label layer (type <kbd>Labels</kbd>);
+* <kbd>Image Layer (Reference)</kbd> corresponds to the original fluorescence image layer (type <kbd>Image</kbd>).
 
-If multiple layers of the same type exist (e.g., multiple sets of labels loaded), please manually switch to the target layer currently being edited in the dropdown box.
+If multiple layers of the same type are loaded (e.g., multiple label images), please manually select the target layer to be edited from the drop-down box.
 
-**Tips**: If <kbd>Label Layer</kbd> cannot be automatically detected, please switch the pre-segmentation label image.
+> **Tip**
+>
+> If <kbd>Label Layer</kbd> fails to automatically recognize the label layer, please first confirm whether the segmentation result is loaded as a <kbd>Labels</kbd> type layer. If the current layer is displayed as <kbd>Image</kbd> type, you can select the layer in the layer list, right-click and choose **Convert to Labels** (or reload the label image as a Labels layer), and then re-select or switch the target label layer.
 
-## 2.6 Configuring the Plugin Work Environment
+## 2.6 Configuring the Plugin Environment
 
-Before any editing operation, it is recommended to first complete the following basic settings in the <kbd>CellRefine-3D Settings</kbd> area (Figure 5):
+Before starting editing, it is recommended to complete the following settings in the <kbd>CellRefine-3D Settings</kbd> region (Figure 5):
 
-- **Interface Layout**: If the CellRefine-3D control panel is not on the right side of the napari main window, you can click the <kbd>Dock Right</kbd> button to fix the plugin panel to the right side of the napari main window.
-- **Font Adjustment**: If the CellRefine-3D control interface font feels too small, you can adjust the plugin font size in real time through the <kbd>Font Size</kbd> value box.
-- **JSON Log Path**: Click <kbd>Select JSON Save Path</kbd> to specify the save location of the operation log. This file is used to record all editing histories and Commit snapshots, and is the key to achieving subsequent traceability and recovery; the default file name is the same as the current <kbd>Image Layer</kbd>. It is strongly recommended to complete this setting before annotation begins, and please do not change it during annotation. After setting, the <kbd>Current JSON Path</kbd> text box will display the effective absolute path.
+* **Panel Layout**: If the NuPatch3D control panel is not displayed on the right side of the napari main window, click <kbd>Dock Right</kbd> to fix it to the right side of the window.
+* **Font Size**: Adjust the font size of the NuPatch3D control panel in real time through the <kbd>Font Size</kbd> input box.
+* **JSON Log Path**: Click <kbd>Select JSON Save Path</kbd> to specify the save location for the operation log. This file is used to record the editing history and is an important basis for achieving traceability and recovery of the annotation process. The default file name is the same as the current <kbd>Image Layer</kbd>. Please complete this setting before starting annotation and keep the path unchanged during the annotation process. After setting, the <kbd>Current JSON Path</kbd> text box will display the currently effective absolute path.
 
 <div style="text-align: center; margin: 1.5em 0;">
-  <img src="../../images/media/image3.png" style="max-width: 70%; height: auto; border-radius: 4px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); display: block; margin: 0 auto;">
-  <div style="color: #666; font-size: 0.9em; margin-top: 0.5em;">Figure 5 Plugin basic settings panel</div>
+  <img src="../../images/media/image3.png" style="max-width: 70%; height: auto; display: block; margin: 0 auto;">
+  <div style="color: #666; font-size: 0.9em; margin-top: 0.5em;">Figure 5. NuPatch3D Basic Settings Panel</div>
 </div>
