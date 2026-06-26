@@ -4,9 +4,27 @@
 
 
 <div style="text-align: center; margin: 2em 0;">
-  <video width="80%" style="max-width: 800px;" controls poster="../../images/media/image4.png">
-    <source src="https://github.com/Hagibis2019/benchmarking_of_cell_segmentation/releases/download/v1.0/introduction_ch.mp4" type="video/mp4">
-    Your browser does not support video playback.
-  </video>
+  <div id="bili-wrap" style="position: relative; width: 80%; max-width: 800px; margin: 0 auto; aspect-ratio: 16/9; background: #000;">
+    <!-- 自定义封面 -->
+    <img id="bili-poster" src="../images/media/image4.png" 
+         style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; cursor: pointer; z-index: 1;" 
+         onclick="loadBili()">
+    <!-- 播放按钮 -->
+    <div onclick="loadBili()" 
+         style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); 
+                width: 64px; height: 64px; background: rgba(0,0,0,0.6); border-radius: 50%; 
+                cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 2;">
+      <svg viewBox="0 0 24 24" width="32" height="32" fill="white"><polygon points="8,5 8,19 19,12"></polygon></svg>
+    </div>
+  </div>
   <div style="color: #666; font-size: 0.9em; margin-top: 0.5em;">NuPatch3D Video Tutorial</div>
 </div>
+
+<script>
+function loadBili() {
+  var wrap = document.getElementById('bili-wrap');
+  wrap.innerHTML = '<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=116817842406583&bvid=BV1mS776CE6m&cid=39436487579&p=1&autoplay=1" ' +
+    'scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" ' +
+    'style="position: absolute; inset: 0; width: 100%; height: 100%; border: none;"></iframe>';
+}
+</script>
