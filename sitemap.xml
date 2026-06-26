@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/boundary/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/boundary/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/boundary/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/environment/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/environment/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/environment/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/loading/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/loading/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/loading/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/missing/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/missing/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/missing/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/napari/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/napari/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/napari/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/over/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/over/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/over/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/restore/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/restore/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/restore/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/save/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/save/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/save/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/under/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/under/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/under/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/old/extraction/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/old/extraction/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/old/extraction/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/old/interaction/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/old/interaction/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/old/interaction/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/old/manual/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/old/manual/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/old/manual/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/boundary/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/boundary/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/boundary/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/environment/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/environment/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/environment/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/loading/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/loading/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/loading/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/missing/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/missing/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/missing/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/napari/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/napari/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/napari/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/over/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/over/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/over/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/restore/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/restore/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/restore/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/save/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/save/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/save/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/under/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/under/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/under/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/old/extraction/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/old/extraction/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/old/extraction/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/old/interaction/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/old/interaction/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/old/interaction/"/>
+    </url>
+    <url>
+        <loc>https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/old/manual/</loc>
+        <lastmod>2026-06-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/en/old/manual/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://hagibis2019.github.io/benchmarking_of_cell_segmentation/old/manual/"/>
+    </url>
+</urlset>
